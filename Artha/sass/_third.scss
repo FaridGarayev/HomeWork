@@ -1,0 +1,72 @@
+.third
+{
+    height: 750px;
+    width: 100%;
+
+    .third-1
+    {
+        padding-top:20px ;
+        height: 240px;
+        width: 100%;
+        div 
+        {
+            height: 240px;
+        }
+        .bigp
+        {
+            transform: translate(40px,50px);
+            color: white;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+        }
+
+        .littlep
+        {
+            transform: translate(0px,50px);
+            font-size: 18px;
+            color: white;
+            font-family: sans-serif;
+           
+        }
+    }
+    
+    .third-2
+    {
+        transform: translate(40px,50px);
+        height: 420px;
+        width: 100%;
+        font-family: sans-serif;
+    
+        div 
+        {
+            
+            height: 220px;
+            width: 50px;
+        }
+
+        h1
+        {
+
+            font-size: 30px;
+            font-weight: 600;
+            color: #dfac71;
+            padding: 6px 0px 15px;
+        }
+        h3
+        {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 15px 0;
+        }
+        p
+        {
+            color: white;
+            font-size: 15px;
+        }
+
+    }
+
+
+}
