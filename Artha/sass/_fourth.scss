@@ -1,0 +1,144 @@
+.fourth
+{
+    height: 700px;
+    width: 100%;
+    
+    .basliq
+    {
+        padding: 30px 0;
+        height: 200px;
+        width: 700px;
+        margin-left: 17%;
+        font-family: sans-serif;
+        text-align: center;
+        color: white;
+
+        h4
+        {
+            font-size: 22px;
+        }
+        h1
+        {
+            padding: 20px 0;
+            font-size: 40px;
+        }
+       
+    }
+
+    .fourthpp
+    {
+        height: 380px;
+        width: 200px;
+        border: 8px solid #111114;
+        display: flex;
+        flex-direction: column;
+        
+        padding: 0 0 16px 16px;
+        color: white;
+
+        
+
+        
+    }
+
+    .pp-1
+    {
+        border-radius: 10px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3), rgba(2, 24, 53, 0.6)), url(..//img/johndoe.jpg);
+        background-size: 100% 100%;
+
+        .hoverikon1 {
+            // background-color: rgba(0, 0, 0, 0.308);
+            height: 23px;
+            display: none;
+            margin-top: 30px;
+            i {
+                float: right;
+                margin-right: 20px;
+            }
+        }
+        &:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(2, 24, 53, 0.8)), url(../img/johndoe.jpg);
+            .hoverikon1 {
+                display: block;
+                transform: translateY(-23px);
+            }
+        }
+    }
+
+    .pp-2
+    {
+        border-radius: 10px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3), rgba(2, 24, 53, 0.6)), url(..//img/tommydoe.jpg);
+        background-size: 100% 100%;
+
+        .hoverikon2 {
+            // background-color: rgba(0, 0, 0, 0.308);
+            height: 23px;
+            display: none;
+            margin-top: 30px;
+            i {
+                float: right;
+                margin-right: 20px;
+            }
+        }
+        &:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(2, 24, 53, 0.8)), url(../img/tommydoe.jpg);
+            .hoverikon2 {
+                display: block;
+                transform: translateY(-23px);
+            }
+        }
+    }
+
+    .pp-3
+    {
+        border-radius: 10px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3), rgba(2, 24, 53, 0.6)), url(..//img/hashdoe.jpg);
+        background-size: 100% 100%;
+
+        .hoverikon3 {
+            // background-color: rgba(0, 0, 0, 0.308);
+            height: 23px;
+            display: none;
+            margin-top: 30px;
+            i {
+                float: right;
+                margin-right: 20px;
+            }
+        }
+        &:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(2, 24, 53, 0.8)), url(../img/hashdoe.jpg);
+            .hoverikon3 {
+                display: block;
+                transform: translateY(-23px);
+            }
+        }
+    }
+
+    .pp-4
+    {
+        border-radius: 10px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3), rgba(2, 24, 53, 0.8)), url(..//img/joedoe.jpg);
+        background-size: 100% 100%;
+
+        .hoverikon4 {
+            // background-color: rgba(0, 0, 0, 0.308);
+            height: 23px;
+            display: none;
+            margin-top: 30px;
+            
+            i {
+                float: right;
+                margin-right: 20px;
+            }
+        }
+        &:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(2, 24, 53, 0.6)), url(../img/joedoe.jpg);
+            .hoverikon4 {
+                display: block;
+                transform: translateY(-23px);
+            }
+        }
+    }
+}
