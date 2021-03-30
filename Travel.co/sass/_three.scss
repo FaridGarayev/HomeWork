@@ -1,0 +1,58 @@
+.three
+{
+    height: 400px;
+    width: 100%;
+
+
+    .threelinks
+    {
+        margin-top: 10%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        a
+        {
+            text-decoration: none;
+            color: #478ac9;
+            transition: color 0.3s;
+        }
+
+        a:hover
+        {
+            color: rgb(27, 25, 25);
+        }
+    }
+
+    .icons
+    {
+        height: 50px;
+        width: 300px;
+
+        .fa
+        {
+            font-size: 23px;
+            padding: 10px;
+            color: rgb(214, 210, 210);
+            transition: color 0.4s;
+        }
+        .fa:hover
+        {
+            color: black;
+        }
+    }
+
+    .form-control
+    {
+        width: 220px;
+        border: none;
+        background-color: rgb(238, 238, 238);
+        font-size: 14px;
+        border-radius: 7px;
+    }
+
+    .form-control:focus
+    {
+        border: 2px solid black;
+    }
+}

@@ -1,0 +1,72 @@
+.two
+{
+    height: 1000px;
+    width: 100%;
+    background-color: #e9f2fa;
+
+    .twotxt
+    {
+        height: 180px;
+        width: 320px;
+        text-align: center;
+        margin-left: 34%;
+        color: #478ac9 !important;
+        h2
+        {
+            font-size: 30px;
+            padding: 25px 0;
+        }
+        p
+        {
+            font-style: italic;
+            font-size: 16px;
+        }
+    }
+
+    .twobox
+    {
+        
+        height: 360px;
+        width: 350px;
+        margin-bottom: 25px;
+       
+
+
+        div:nth-child(1)
+        {
+            height: 85%;
+            transition: transform 1s;
+            img
+            {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        div:nth-child(1):hover
+        {
+            transform: rotate(1deg);
+        }
+
+        div:nth-child(2)
+        {
+            background-color: white;
+            height: 15%;
+            padding: 10px 15px;
+            font-size: 20px;
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+            font-family: Arial, Helvetica, sans-serif;
+            .fa
+            {
+                padding-right: 10px;
+                font-size: 30px;
+                color: rgb(196, 193, 193);
+            }
+
+
+        }
+    }
+
+
+}

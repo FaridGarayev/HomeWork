@@ -1,0 +1,209 @@
+@media screen and (max-width: 1000px) {
+    body {
+        height: 4100px;
+    }
+
+    .one
+    {
+        height: 550px;
+
+    }
+
+    .two
+    {
+        
+        .twotxt
+        {
+            margin-left: 30%;
+        h2
+        {
+            font-size: 36px;
+        }
+        p
+        {
+            font-size: 17px;
+        }
+        }
+
+
+        .twobox
+        {
+        
+            height: 360px;
+            width: 230px;
+            
+
+            div:nth-child(2)
+            {
+            
+                font-size: 15px;
+            
+            }
+        }
+    }
+
+
+    .three
+    {
+        .form-control
+        {
+            width: 70px;
+            font-size: 10px;
+        }
+    }
+
+    .five
+    {
+        height: 1300px;
+
+        .fivetxt
+        {
+            
+            margin-left: 5%;
+            
+        }
+
+        .fiveleft
+        {   
+            height: 530px;
+            background-position:center;
+            background-size: cover;
+        }
+
+        .fiveright
+        {
+        height: 530px;
+        margin-top: 20px;
+
+        .fivepht
+        {
+            height: 252px;
+            width: 335px;
+        }
+
+        .fivebox
+        {
+           
+            width: 335px;
+            
+            h3
+            {
+                font-size: 28px;
+            }
+            p
+            {
+                font-size: 14px;
+
+            }
+        }
+        
+    }
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    body
+    {
+        height: 6000px;
+        overflow-x: hidden ;
+    }
+
+    .one{
+        .onetxt
+        {
+            width: 370px;
+        }
+    }   
+
+    .two
+    {
+        height: 2500px;
+
+        .twotxt
+        {
+            margin-left: 15%;
+        }
+
+        .twobox
+        {
+
+            height: 360px;
+            width: 350px;
+            margin-left: 15%;
+            margin-bottom: 25px;
+        
+        }
+
+    }
+
+    .three
+    {
+        height: 600px;
+        width: 100%;
+
+        .form-control
+        {
+            width: 270px;
+            border: none;
+            margin-right: 20px;
+            background-color: rgb(238, 238, 238);
+            font-size: 14px;
+            border-radius: 7px;
+        }
+    }
+
+    .fourth
+    {
+        background-position: 40%;
+
+        .fourthtxt
+        {
+            transform: translate(-50px,120px);           
+            width: 370px;
+        }
+
+
+    }
+
+
+    .five
+    {
+        height: 1800px;
+
+        .fivetxt
+        {
+            width: 420px;
+            margin-left: 0;
+        }
+
+        .fiveleft
+        {   
+           
+            height: 430px;
+            background-position:center;
+            background-size: cover;
+        }
+
+        .fiveright
+        {
+        height: 530px;
+        margin-left: 13%;
+
+        .fivepht
+        {
+            height: 252px;
+            width: 350px;
+        }
+
+        .fivebox
+        {
+            margin-bottom: 20px;
+            width: 350px;
+           
+        }
+        
+    }
+    }
+}

@@ -1,0 +1,72 @@
+.five
+{
+    height: 800px;
+    width: 100%;
+    background-color: #e9f2fa;
+
+    .fivetxt
+    {
+        height: 180px;
+        width: 620px;
+        text-align: center;
+        margin-left: 26%;
+        color: black !important;
+        h2
+        {
+            font-size: 30px;
+            padding: 25px 0;
+        }
+        p
+        {
+            font-style: italic;
+            font-size: 16px;
+        }
+    }
+
+    .fiveleft
+    {   
+        height: 530px;
+        background-image: url(..//image/girl.PNG);
+        background-repeat: no-repeat;
+    }
+
+
+    .fiveright
+    {
+        height: 530px;
+        
+
+        .fivepht
+        {
+            height: 252px;
+            width: 270px;
+        }
+
+        .fivebox
+        {
+            background-color: white;
+            height: 252px;
+            width: 270px;
+            text-align: center;
+
+            .fa
+            {
+                padding: 20px 0;
+                font-size: 40px;
+                color: #478ac9;
+            }
+
+            h3
+            {
+                padding: 15px 0;
+            }
+
+            p
+            {
+                font-size: 14px;
+                font-style: italic;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.fourth
+{
+    height: 550px;
+    width: 100%;
+    background-image: url(..//image/sea.jpeg);
+    background-position: 0 40%;
+
+    .fourthtxt
+    {
+        float: right;
+        transform: translate(-150px,150px);
+        color: white;
+        height: 300px;
+        width: 670px;
+
+        h1
+        {
+           
+            font-size: 40px;
+
+        }
+
+        p
+        {
+           
+            font-size: 20px;
+        }
+
+       .btn
+       {
+            height: 42px;
+            width: 120px;
+            transition: all 1s;
+       }
+    }
+
+
+}
