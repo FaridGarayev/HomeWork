@@ -1,0 +1,86 @@
+.sixth
+{
+    height: 810px;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+
+    .sixthtitle
+    {
+        height: 250px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+        div
+        {
+            height: 250px;
+            width: 670px;
+        }
+        h4
+        {
+            font-size: 20px;   
+            padding: 15px 0;
+        }
+
+        h1
+        {
+            font-size: 40px;   
+            font-weight: 600;
+            padding: 20px 0;
+        }
+    }
+
+
+    .sixthcards
+    {
+        height: 555px;
+        width: 100%;
+        font-family: sans-serif;
+
+
+        .cardlar
+        {
+            height: 450px;
+            width: 260px;
+            border: 6px solid rgb(66, 65, 65);
+            transition: border 0.2s ease;
+            h3 , h1
+            {
+                padding: 12px 0;
+                text-align: center;
+            }
+    
+            h3
+            {
+                font-size: 25px;
+            }
+    
+            hr
+            {
+                width: 90%;
+                background-color: rgba(255, 255, 255, 0.4);
+            }
+            h1
+            {
+                font-size: 40px;
+                color: #dfac71;
+                span
+                {
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+            p
+            {
+                padding-left: 12px;
+            }
+
+        }
+       
+        .cardlar:hover
+        {
+            border: 6px solid #dfac71;
+        }
+    }
+}

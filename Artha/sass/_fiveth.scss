@@ -1,0 +1,57 @@
+.fiveth
+{
+    height: 600px;
+    width: 100%;
+
+
+    .fivethleft
+    {
+        height: 400px;
+        background-image: url(../img/slider3.jpg);
+        background-position: center;
+    }
+
+    .fivethright
+    {
+        
+        color: white;
+        font-family: sans-serif;
+
+        div
+        {
+            height: 250px;
+            width: 430px;
+            transform: translate(25%,50%);
+        }
+       
+        h4
+        {
+            font-size: 20px;   
+            padding: 15px 0;
+        }
+
+        h1
+        {
+            font-size: 40px;   
+            font-weight: 600;
+            padding: 20px 0;
+        }
+
+        .moredet
+        {
+            color: white;
+            height: 45px;
+            width: 160px;
+            font-weight: bold;
+            background-color: transparent;
+            border: 2px solid #dfac71;
+            border-radius: 3px;
+            transition: all 0.6s ease;
+        }
+
+        .moredet:hover
+        {
+            background-color: #e7a860;
+        }
+    }
+}
