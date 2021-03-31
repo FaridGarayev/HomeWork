@@ -1,0 +1,407 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  height: 3520px;
+  background-color: #fad39034;
+}
+
+@-webkit-keyframes myMove {
+  from {
+    right: -700px;
+    top: 150px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes myMove {
+  from {
+    right: -700px;
+    top: 150px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+.one {
+  height: 750px;
+  width: 100%;
+  background-image: url(..//image/globe.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #0f0c35;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.one .title1 {
+  height: 350px;
+  width: 430px;
+  color: white;
+}
+
+.one .title1 h1 {
+  font-size: 95px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.one .title1 h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 26px;
+  padding: 10px 0;
+}
+
+.one .title1 p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.one .title1 .inputs {
+  width: 430px;
+}
+
+.one .title1 .inputs input {
+  height: 35px;
+  width: 310px;
+  margin-right: 20px;
+  border-radius: 7px;
+  padding-left: 18px;
+}
+
+.one .title1 .inputs button {
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  border: 1px solid #ffbe76;
+  height: 35px;
+  width: 90px;
+  font-weight: 600;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.one .title1 .inputs button:hover {
+  color: black;
+  background-color: #ffbe76;
+}
+
+.one #planetnames {
+  display: none;
+}
+
+.one #planetnames .planetnames {
+  -webkit-animation: myMove 1.5s 1;
+          animation: myMove 1.5s 1;
+  background-color: #2980b9;
+  right: 0;
+  top: 150px;
+  border-radius: 12px;
+  position: absolute;
+  height: 450px;
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.one #planetnames .planetnames h1 {
+  font-size: 50px;
+  text-align: right;
+  float: right;
+}
+
+.one #planetnames .planetnames .planimg {
+  background-image: url(..//image/ay.jpg);
+  background-size: cover;
+  height: 230px;
+  width: 300px;
+}
+
+.one #planetnames .planetnames .plantxt {
+  height: 150px;
+  width: 550px;
+}
+
+.one #planetnames .xbutton {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background-color: #dd4146;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.one #planetnames .xbutton:hover {
+  color: black;
+  background-color: #f39c12;
+}
+
+.two {
+  height: 450px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.two .twotxt {
+  height: 250px;
+  width: 92%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #130f40;
+}
+
+.two .twotxt hr {
+  height: 9px;
+  width: 100px;
+  background-color: #f8cb8a;
+}
+
+.two .twotxt p {
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.three {
+  height: 1150px;
+  width: 100%;
+}
+
+.three .threeph-1 {
+  height: 560px;
+  width: 100%;
+  background-image: url(..//image/welcomeaboard.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.three .threetxt-1 {
+  height: 560px;
+  width: 600px;
+  color: #130f40;
+  background-color: white;
+}
+
+.three .threetxt-1 h3 {
+  padding: 20px 0;
+}
+
+.three .threetxt-1 h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.three .threetxt-1 hr {
+  margin: 25px 0;
+  height: 9px;
+  width: 100px;
+  background-color: #f8cb8a;
+}
+
+.three .threetxt-1 p {
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.three .houston-1 {
+  margin-top: 60px;
+  margin-left: 10px;
+  width: 530px;
+  height: 350px;
+  text-align: center;
+  background-image: url(..//image/houston1.jpeg);
+  background-size: 100% 100%;
+}
+
+.three .houston-2 {
+  margin-top: 60px;
+  width: 530px;
+  height: 350px;
+  text-align: center;
+  background-image: url(..//image/houston3.jpeg);
+  background-size: 100% 100%;
+}
+
+.three .ptxt {
+  font-style: italic;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.four {
+  border: 1px solid #0f0c35;
+  height: 600px;
+  width: 100%;
+  background-image: url(..//image/7363804265c4c8b8ca3f6e25a3e432c6.png);
+  background-color: #0f0c35;
+}
+
+.four .fourtxt {
+  margin-top: 100px;
+  width: 50%;
+  height: 700px;
+  color: white;
+  text-align: center;
+}
+
+.four .fourtxt hr {
+  height: 9px;
+  width: 100px;
+  background-color: #f8cb8a;
+}
+
+.four .fourtxt h3 {
+  padding: 20px 0;
+}
+
+.four .fourtxt p {
+  padding: 20px 0;
+}
+
+.five {
+  height: 550px;
+  width: 100%;
+  background-image: url(..//image/lastph.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.five .fivetxt {
+  height: 550px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.five .fivetxt a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.five .fivetxt a:hover {
+  color: #555094;
+}
+
+.five .fiveph {
+  margin-top: 110px;
+  height: 270px;
+  width: 420px;
+  background-image: url(..//image/lastpagephoto.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 750px) {
+  .one {
+    height: 550px;
+    width: 100%;
+  }
+  .one #planetnames {
+    display: none;
+  }
+  .one #planetnames .planetnames {
+    height: 550px;
+    width: 485px;
+    top: 0;
+  }
+  .one #planetnames .planetnames .plantxt {
+    height: 150px;
+    width: 90%;
+  }
+  .three {
+    height: 2000px;
+  }
+  .three .houston-1 {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 460px;
+  }
+  .three .houston-2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 460px;
+  }
+  .four {
+    height: 660px;
+  }
+  .four .fourtxt {
+    width: 100%;
+  }
+  .five {
+    height: 500px;
+    width: 100%;
+  }
+  .five .fivetxt {
+    margin-top: 40px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .five .fiveph {
+    margin-top: -310px;
+    height: 200px;
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
