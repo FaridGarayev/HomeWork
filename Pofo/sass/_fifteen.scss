@@ -1,0 +1,76 @@
+.fifteen
+{
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.75), rgba(22, 22, 22, 0.75), rgba(22, 22, 22, 0.75)), url(http://www.themezaa.com/html/pofo/images/parallax-bg6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+
+    .fifteen-1
+    {
+        height:700px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        .fa
+        {
+            font-size: 110px;
+            color: white;
+        }
+
+        h1
+        {
+            width: 60%;
+            text-align: center;
+            font-size: 45px;
+        }
+        p
+        {
+            width: 45%;
+            text-align: center;
+            font-size: 14px;
+            color: rgb(180, 175, 175);
+        }
+        button
+        {
+            width: 180px;
+            height: 35px;
+            border-radius: 4px;
+            background: white;
+            border: 2px solid  white;
+            color: #11161b;
+            text-transform: uppercase;
+            margin: 10px 0;
+            transition: all 0.3s;
+            .fa
+            {
+                padding-top: 3px;
+                font-size: 20px;
+                color: #11161b;
+            }
+
+            span
+            {
+                padding-left: 10px;
+                font-family: sans-serif;
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+        button:hover
+        {
+            color: white;
+            background-color: transparent;
+            .fa
+            {
+                color: white;
+            }
+        }
+    }
+}

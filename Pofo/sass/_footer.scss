@@ -1,0 +1,41 @@
+.footer
+{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    
+    h5
+    {
+        margin-top: 30px;
+        width: 280px;
+        font-size: 16px;
+
+        .fa
+        {
+            padding-left: 15px;
+            transition: color  0.5s;
+        }
+        .fa:hover
+        {
+            color:  #ff214f;
+        }
+
+    }
+
+    a
+    {
+        color: white;
+        font-size: 50px;
+        font-weight: 600;
+        
+        span
+        {
+             color:  #ff214f;
+        }
+    }
+}
+    
