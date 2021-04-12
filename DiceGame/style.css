@@ -1,0 +1,106 @@
+body
+{
+    height: 1200px;
+    width: 100%;
+    background-color: #0984e3;
+}
+
+.scoreTable
+{
+    width: 450px;
+    height: 260px;
+    background-color: #74b9ff;
+    position: relative;
+    top: 0;
+    left: 32%;
+    border-radius: 20px;
+}
+
+.box
+{
+    height: 240px;
+    width: 200px;
+    margin: 11px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box h3
+{
+    margin-bottom: 70px;
+}
+.box h1
+{
+    font-size: 60px;
+}
+
+.player1
+{
+    float: left;
+    background-color: #e74c3c;
+}
+
+.player2
+{
+    float: right;
+    background-color: #2ecc71;
+}
+
+.first
+{
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: #e74c3c;
+}
+
+.second
+{
+    float: right;
+    margin-right: 20%;
+    margin-top: 5%;
+    background-color: #2ecc71;
+}
+
+.dice1
+{
+    width: 80px;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: -15%;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    background-image: url(https://media.discordapp.net/attachments/827485050257014826/831199645346693120/bir.png);
+    background-size: contain;
+}
+
+.dice2
+{
+    width: 80px;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: -15%;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    background-image: url(https://media.discordapp.net/attachments/827485050257014826/831199645346693120/bir.png);
+    background-size: contain;
+}
+
+.drop
+{
+    height: 30px;
+    width: 100px;
+    margin-top: 40px;
+    background-color: #ecf0f1;
+    border: 1px solid #2d3436;
+    border-radius: 7px;
+    color: #2d3436;
+    transition: all 0.5s;
+}
+
+.drop:hover
+{
+    background-color: #2d3436;
+    border: 1px solid #ecf0f1;
+    color: white;
+}
