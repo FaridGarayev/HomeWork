@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass/style.css">
+    <title>Bank</title>
+</head>
+<body>
+    
+
+
+    <div class="bigCard">
+        <div class="row">
+            <div class="cards col-sm-4">
+                <div class="row">
+                    <div class="card-1" id="card_1" onclick="card_1()">
+                        <h5>5678 5433 2254 3476</h5>
+                        <img src="https://media.discordapp.net/attachments/827485050257014826/831808756416643113/discover.png" alt="Discover">
+                        <h6>C.David</h6>
+                        <h6>01/22</h6> 
+                    </div>
+                    <div class="card-1" id="card_2" onclick="card_2()">
+                        <h5>5432 9876 5678 1234</h5>
+                        <img src="https://media.discordapp.net/attachments/827485050257014826/831816549282742283/mastercard.png" alt="Master">
+                        <h6>T.Konten</h6>
+                        <h6>05/24</h6> 
+                    </div>
+                    <div class="card-1" id="card_3" onclick="card_3()">
+                        <h5>1234 5678 9876 5432</h5>
+                        <img src="https://media.discordapp.net/attachments/827485050257014826/831816551815970816/visa.png" alt="Visa">
+                        <h6>J.Thomson</h6>
+                        <h6>07/19</h6> 
+                    </div>
+
+
+                    <div class="addButton">
+                        <h1>+</h1>
+                        <h5>Add a card</h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="card col-sm-8">
+                <div class="own d-flex  justify-content-center align-items-center">
+                    <div class="own-1" id="own_1">
+                        <h5 id="own_cardnum">XXXX XXXX XXXX XXXX</h5>
+                        <img id="own_img" src="https://media.discordapp.net/attachments/827485050257014826/831825167457452042/kards.png" alt="Discover">
+                        <h6 id="own_fullname">X.XXXXX</h6>
+                        <h6 id="own_date">XX/XX</h6> 
+                    </div>
+                </div>
+                <div class="payment">
+                    <table style="width:100%">
+                        <tr>
+                          <th>Date</th>
+                          <th>Merchant</th> 
+                          <th>Spend</th>
+                        </tr>
+                        <tr>
+                            <td id="date_1">XX/XX/XXXX</td>
+                            <td id="merchant_1">XXX</td>
+                            <td id="spend_1">$XXX.XX</td>
+                        </tr>
+                        <tr>
+                            <td id="date_2">XX/XX/XXXX</td>
+                            <td id="merchant_2">XXX</td>
+                            <td id="spend_2">$XXX.XX</td>
+                        </tr>
+                        <tr>
+                            <td id="date_3">XX/XX/XXXX</td>
+                            <td id="merchant_3">XXX</td>
+                            <td id="spend_3">$XXX.XX</td>
+                        </tr>
+                        <tr>
+                            <td id="date_4">XX/XX/XXXX</td>
+                            <td id="merchant_4">XXX</td>
+                            <td id="spend_4">$XXX.XX</td>
+                        </tr>
+                      </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
