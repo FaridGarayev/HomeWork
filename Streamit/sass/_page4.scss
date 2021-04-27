@@ -1,0 +1,125 @@
+.page4
+{   
+    margin: 20px 0;
+    height: 600px;    
+    width: 100%;
+    padding: 90px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.8)) , url("https://images-ext-2.discordapp.net/external/ng1oJaLryd3ybWYKddD-JD9c-F75ZHefiQiVuIFwRLY/https/iqonic.design/themes/streamitnew/frontend/html/images/parallax/p1.jpg?width=1429&height=670");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+
+    .page4-text
+    {
+        height: 400px;
+        width: 95%;
+        padding: 30px 0;
+
+        .bailey-imdb
+        {
+            width: 350px;
+            height: 300px;
+            color: white;
+            margin: 10px 0;
+
+            .b-imdb-stars
+            {                
+                display: inline;
+                .fa 
+                {
+                    color:#e50914;
+                }
+            }
+            
+            .imdb-age
+            {
+                height: 30px;
+                width: 150px;
+                margin: 15px 0;
+                div
+                {
+                    height: 25px;
+                    width: 30px;
+                    background-color: gray;
+                    display: inline-block;
+                }
+            }   
+
+            p
+            {
+                color: rgb(207, 207, 207);
+                font-size: 15px;
+            }
+
+            button
+            {
+                margin: 10px 0;
+                width: 150px;
+                height: 50px;
+                background-color: #bf000a;
+                color: white;
+                border: none;
+                text-transform: uppercase;
+                transition: ease-out .3s;
+                outline: none;
+                position: relative;    
+                z-index: 1;
+
+                .fa
+                {
+                    margin-right: 5px;
+                }
+
+                &:hover
+                {
+                    color: white;
+                    cursor: pointer;
+                }
+                &::before
+                {
+                    transition: .8s all ease;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    opacity: 0;
+                    content: "";
+                    background-color: #e50914;
+                }
+                &:hover::before
+                {
+                    transition: .8s all ease;
+                    left: 50%;
+                    right: 50%;
+                    opacity: 1;
+                    z-index: -1;
+                }
+            }
+
+            a
+            {
+                margin-left: 20px;
+                color: white;
+                transition: color .5s;
+                text-decoration: none;
+                font-weight: 600;
+
+                &:hover
+                {
+                    color: #e50914;
+                }
+            }
+
+        }
+
+
+    }
+
+    .page4-ph
+    {
+        background-image: url("https://images-ext-2.discordapp.net/external/ng1oJaLryd3ybWYKddD-JD9c-F75ZHefiQiVuIFwRLY/https/iqonic.design/themes/streamitnew/frontend/html/images/parallax/p1.jpg?width=1429&height=670");
+        background-size: cover;
+    }
+}
