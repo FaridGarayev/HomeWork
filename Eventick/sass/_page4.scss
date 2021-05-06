@@ -1,0 +1,47 @@
+.page4
+{
+    height: 280px;
+    width: 100%;
+    color: white;
+    background-image: url(https://preview.templatehouse.net/eventick/demo/images/funfact.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .page4-box
+    {
+        background-color: white;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        .page4box-1
+        {
+            border: 1px solid #25191a1a;
+            color: black;
+            height: 125px;
+            width: 88%;
+            text-align: center;
+
+            .fas
+            {
+                margin: 8px 0;
+                font-size: 30px;
+                color: #E71B37;
+            }
+            h6
+            {
+                color: #E71B37;
+                text-transform: uppercase;
+            }
+
+            
+        }
+    }
+}

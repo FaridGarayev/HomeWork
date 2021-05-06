@@ -1,0 +1,156 @@
+@media screen and (max-width: 1000px) {
+   header
+   {
+       .headerMediaBurger
+       {
+           display: block;
+       }
+       .nav-item,.nav-right
+       {
+           display: none;
+       }
+   }
+
+   .page2 
+   {
+        height: 1100px;
+   }
+
+   .page3
+   {
+        height: 1000px;
+
+        .page3-txt
+        {
+            height: 250px;
+        }
+
+        .page3-box
+        {
+            margin-bottom: 25px;
+        }
+
+        .page3-cards
+        {
+            text-align: center;
+            height: 500px;
+        }
+   }    
+
+   .page4
+    {
+        height: 350px;
+
+        .page4-box
+        {
+            margin-bottom: 10px;
+        }
+    }
+
+    .page5
+    {
+        height: 800px;
+    }
+
+    .page6
+    {
+        height: 1000px;
+    }
+
+    .page7
+    {
+        .page7-txt
+        {
+            padding: 20px 0 0 0;
+            p
+            {
+                padding: 0 100px;
+            }
+        }
+    }
+
+    footer {
+        height: 500px;
+        .div3 {
+            h5 {
+                margin-top: 35px;
+            }
+        }
+        .div4 {
+            h5 {
+                margin-top: 35px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px)
+{
+    .page2
+    {
+        height: 1950px;
+        .page2-txt
+        {
+            p {
+                padding: 0;
+                color: #4d4d4d;
+              }
+        }
+    }
+
+    .page3
+    {
+        height: 1200px;
+        .page3-txt
+        {
+            p {
+                padding: 0;
+                color: #4d4d4d;
+              }
+        }
+    }
+
+    .page4
+    {
+        height: 800px;
+    }
+    
+    .page5
+    {
+        height: 830px;
+    }
+
+    .page6
+    {
+        height: 1800px;
+    }
+    .page7
+    {
+        .page7-txt
+        {
+            p
+            {
+                padding: 0;
+            }
+        }
+        .owl-theme
+        {
+            margin-left: 50px;
+        }
+    }
+
+    footer
+    {
+        height: 950px;
+
+        .div3
+        {
+            img
+            {
+                height: 100px;
+                width: 150px;
+            }
+        }
+    }
+}

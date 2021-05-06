@@ -1,0 +1,117 @@
+.page6
+{
+    height: 720px;
+    width: 100%;
+
+    .page6-txt
+    {
+        width: 100%;
+        height: 150px;
+        padding: 20px 0 0 0;
+        text-align: center;
+        
+
+        span
+        {
+            color: #E71B37;
+        }
+        .hr1
+        {
+            width: 170px;
+            background-color: #e9eaeb;
+        }
+        .hr2
+        {
+            width: 130px;
+            background-color: #e9eaeb;
+            margin-top: -9px;
+        }
+        .hr3
+        {
+            width: 100px;
+            background-color: #e9eaeb;
+            margin-top: -9px;
+        }
+    }
+
+    .galph
+    {
+        height: 240px;
+        width: 100%;
+        margin-bottom: 25px;
+        display: flex;
+        overflow: hidden;
+        
+
+        &:hover
+        {
+            .galphcover
+            {
+                display: block;
+            }
+        }
+
+        .galphcover
+        {
+            display: none;
+            background-color: #e71b36d0;
+            color: white;
+            height: 240px;
+            width: 100%; 
+            text-align: center;
+            padding-top: 95px;
+            transition: display 2s;
+
+            .far
+            {
+                font-size: 20px;
+                border: 1px solid white;
+                padding: 8px;
+                float: right;
+                overflow: hidden;
+                transform: translate(-20px,20px);
+                border-radius: 50%;
+                color: #E71B37;
+                background-color: white;
+                animation: animate1 0.5s 1;
+                transition: color 0.5s;
+                cursor: pointer;
+
+                &:hover
+                {
+                    color: black;
+                }
+            }
+        }
+    }
+    .gal1
+    {
+        background-image: url(https://images-ext-2.discordapp.net/external/5Lb1V9elmygWtdUQlqpRQxekuvu5tHC4MydP9tsF2zk/https/preview.templatehouse.net/eventick/demo/images/gallery1.jpg);
+        background-size: 100% 100%;
+    }
+    .gal2
+    {
+        background-image: url(https://images-ext-1.discordapp.net/external/__jq98RCRjFCg5mkGMF5MMwC_iffIbJp4Vil78WqW9A/https/preview.templatehouse.net/eventick/demo/images/gallery2.jpg);
+        background-size: 100% 100%;
+    }
+    .gal3
+    {
+        background-image: url(https://images-ext-1.discordapp.net/external/I0oJtA2GTbR00IAsqb-4X1k-J4cGD3BOxETT4TRgoK4/https/preview.templatehouse.net/eventick/demo/images/gallery3.jpg);
+        background-size: 100% 100%;
+    }
+    .gal4
+    {
+        background-image: url(https://images-ext-2.discordapp.net/external/oJTQEBcUP97mlx0pYpFr74FI6D6lKz1-EiNPve5NPtw/https/preview.templatehouse.net/eventick/demo/images/gallery4.jpg);
+        background-size: 100% 100%;
+    }
+    .gal5
+    {
+        background-image: url(https://images-ext-2.discordapp.net/external/kkK0w0btqquqjj3CzLMuhcqByi-rT3OmO74Lyj1AEDg/https/preview.templatehouse.net/eventick/demo/images/gallery5.jpg);
+        background-size: 100% 100%;
+    }
+    .gal6
+    {
+        background-image: url(https://images-ext-2.discordapp.net/external/st4d2YVjYdBmo0R00HBkeBmYs-dadtNgLyHT1bUNnq0/https/preview.templatehouse.net/eventick/demo/images/gallery6.jpg);
+        background-size: 100% 100%;
+    }
+}
