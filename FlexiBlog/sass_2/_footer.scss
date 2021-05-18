@@ -1,0 +1,85 @@
+footer
+{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    img
+    {
+        height: 45px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    a
+    {
+        font-size: 17px;
+        color: #262729;
+        transition: .5s;
+        &:hover
+        {
+            text-decoration: none;
+            color: #5a67d8;
+        }
+    }
+    .fa-react
+    {
+        margin-left: 10px;
+        font-size: 24px;
+        color: #667eea;
+        span
+        {
+            opacity: 0.5;
+        }
+    }
+
+    h6
+    {
+        color: #262729;
+        padding-left: 30px;
+    }    
+
+    ul
+    {
+        margin-top: 10px;
+        li
+        {
+            list-style: none;
+            padding-bottom:  5px;
+            a
+            {
+                font-size: 18px;
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.5);
+                transition: .5s;
+                &:hover
+                {
+                    color: #5a67d8;
+                    text-decoration: none;
+                }
+
+                .fa-github
+                {
+                    color: darkslategrey;
+                }
+                .fa-twitter
+                {
+                    color: rgb(29,161,242);
+                }
+                .fa-instagram
+                {
+                    color: rgb(193,53,132);
+                }
+                .fab
+                {
+                    margin-right: 5px;
+                }
+            }
+            
+        }
+    }
+}

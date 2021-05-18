@@ -1,0 +1,280 @@
+@media screen and(max-width: 700px) {
+
+    .menutel {
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.795);
+        position: absolute;
+        z-index: 5;
+        i {
+            font-size: 50px;
+            float: left;
+            color: rgb(190, 184, 184);
+            &:hover {
+                transition: 0.5s;
+                color: #667eea;
+            }
+        }
+        .menu1 {
+            float: right;
+            width: 300px;
+            height: 100%;
+            background-color: white;
+            padding: 50px 40px;
+            h5 {
+                margin-bottom: 30px;
+            }
+            ul {
+                margin-left: -40px;
+                li {
+                    list-style: none;
+                    margin-top: 10px;
+                    a {
+                        text-decoration: none;
+                        color: rgb(136, 134, 134);
+                        &:hover {
+                            transition: 0.5s;
+                            color: #667eea;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .search1 {
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.699);
+        position: absolute;
+        z-index: 5;
+        .fa-times-circle {
+            font-size: 50px;
+            float: left;
+            color: rgba(0, 0, 0, 0.692);
+            &:hover {
+                transition: 0.5s;
+                color: #667eea;
+            }
+        }
+        .inputsearch {
+            border: 1px solid black;
+            margin-left: 30px;
+            margin-top: 40px;
+            width: 90%;
+            padding: 8px 5px;
+            border-radius: 5px;
+            background-color: #d2dae2;
+            color: rgb(230, 227, 227);
+            input {
+                width: 92%;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                color: black;
+            }
+            i {
+                color: rgba(153, 153, 153, 0.918);
+            }
+        }
+    }
+    .telmod1 {
+        display: block;
+        .telmod {
+            position: relative;
+            float: right;
+            margin-top: -40px;
+            i {
+                font-size: 30px;
+                margin-left: 20px;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                padding-top: 10px;
+                color: rgb(177, 175, 175);
+                &:hover {
+                    border: 1px solid #667eea;
+                    background-color: #667eea;
+                }
+            }
+            .fa-sun {
+                position: absolute;
+                margin-left: -60px;
+                display: none;
+            }
+            .fa-moon {
+                position: absolute;
+                margin-left: -60px;
+            }
+        }
+    }
+
+    .dis1
+    {
+        display: none;
+    }
+
+    .teamMember
+    {
+        height: 3050px;
+        margin-bottom: 100px;
+        width: 100%;
+
+        .cards_
+        {
+            height: 2000px;
+
+            .card1
+            {
+                text-align: center;
+                height: 600px;
+                margin-bottom: 20px;
+
+                .images
+                {
+                    margin: 30px 0 0 150px;
+                }
+
+                .text_1
+                {
+                    padding: 0;
+                    width: 100%;
+                    height: 200px;
+                }
+
+                .text_2
+                {
+                    padding: 0;
+                    height: 180px;
+                    width: 50%;
+                }
+
+                .text_3
+                {
+                    padding: 0;
+                    height: 180px;
+                    width: 50%;
+                    position: absolute;
+                    right: 0;
+                    top: -180px;
+
+                    .btn-posts
+                    {
+                        top: -360px;
+                    }
+                }
+            }
+        }
+    }
+
+    .contactUs
+    {
+       
+        height: 1300px;
+        width: 100%;
+        .forms
+        {
+            height: 700px;
+        }
+        .xx
+        {
+            display: none;
+        }
+    }
+
+    footer
+    {
+        height: 600px;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .footbasliq
+        {
+            padding-left: 70px;
+            height: 150px;
+        }
+    }
+
+    .conFoot
+    {
+        height: 600px;
+    }
+
+    .tutFoot
+    {
+        height: 600px;
+    }
+
+
+  }
+
+  @media screen and(min-width: 700px) {
+
+    .telmod1 {
+        display: none;
+    }
+    .menutel {
+        display: none;
+    }
+    .search1 {
+        display: none;
+    }
+
+    .teamMember
+    {
+        height: 1800px;
+        width: 100%;
+
+        .cards_
+        {
+            height: 1500px;
+            
+            .card1
+            {
+                height: 270px;
+                .images
+                {
+                    margin: 50px 0 0 50px;
+                }
+
+                .text_3
+                {
+                    ul
+                    {
+                        li
+                        {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer
+    {
+        height: 700px;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .footbasliq
+        {
+            padding-left: 70px;
+            height: 150px;
+        }
+    }
+    
+    .conFoot
+    {
+        height: 400px;
+    }
+
+    .tutFoot
+    {
+        height: 400px;
+    }
+  }

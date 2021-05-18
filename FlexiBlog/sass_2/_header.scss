@@ -1,0 +1,100 @@
+body
+{
+    //height: 1900px;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+}
+header
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+    img
+    {
+        width: 150px;
+        height: 35px;
+    }
+
+    .input-group-text
+    {
+        background-color: rgb(226, 226, 226);
+    }
+    .form-control
+    {
+        outline: none;
+        border: none;
+        color: wheat;
+        background-color: rgb(226, 226, 226);
+    }
+    .head-r
+    {
+        width: 450px;
+        height: 40px;
+        display: flex;
+
+        .black-white
+        {
+            margin-left: 20px;
+            height: 30px;
+            width: 52px;
+            background: linear-gradient(45deg,#FF7D6B,#FFD64C);
+            border-radius: 25px;
+            position: relative;
+            .fas
+            {
+                color: white;
+                font-size: 17px;
+                padding-top: 7px;
+            }
+            .fa-sun
+            {
+                margin-right: 5px;
+                float: right;
+            }
+            .fa-moon
+            {
+                margin-left: 5px;
+            }
+            .fa-circle
+            {
+                position: absolute;
+                top: -3px;
+                left: 2px;
+                font-size: 22px;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        #header-ul
+        {
+            height: 40px;
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            
+            li
+            {
+                margin-right: 20px;
+                list-style: none;
+                a
+                {
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #4a5568;
+                    &:hover
+                    {
+                        color: #5a67d8;
+                    }
+                }
+            }
+        }
+
+        
+    }
+    
+}

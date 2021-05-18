@@ -1,0 +1,146 @@
+.contactUs
+{
+    height: 900px;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    
+    transition: 1.2s;
+    opacity: 0;
+    transform: translate(0px,500px);
+
+    .text
+    {
+        width: 95%;
+        margin-top: 40px;
+        h1
+        {
+            color: #2d3748;
+            font-size: 50px;
+        }
+        h5
+        {
+            padding: 15px 0;
+            font-weight: 400;
+            font-size: 20px;
+            color: #718096;
+        }
+    }
+
+    .forms
+    {
+        background-color: white;
+        padding: 40px;
+        margin-top: 40px;
+        box-shadow: 0px 1px 3px 0px rgb(207, 207, 207);
+        border-radius: 20px;
+        height: 550px;
+        width: 95%;
+        
+        .btn-1
+        {
+            width: 150px;
+            height: 50px;
+            border: none;
+            border-radius: 30px;
+            background-color: #5a67d8;
+            color: white;
+            margin-right: 10px;
+            transition: .7s;
+            &:hover
+            {
+                background-color: #606b7c;
+                color: #b7bbc0;
+            }
+        }
+
+        label
+        {
+            color: #718096;
+        }
+        input
+        {
+            background-color: #e2e8f0;
+            border: none;
+            outline: none;
+        }
+        textarea
+        {
+            width: 100%;
+            outline: none;
+            background-color: #e2e8f0;
+            border: none;
+        }
+    }
+
+    .commit_
+    {
+        //border: 1px solid red;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        color: #718096;
+
+        .box-1
+        {
+            height: 240px;
+            width: 300px;
+            margin-left: 25px;
+            margin-top: 50px;
+            border-radius: 15px;
+            background-color: white;
+            padding: 30px;
+            text-align: left;
+            box-shadow: 0px 1px 3px 0px rgb(207, 207, 207);
+        }
+
+        .box-2
+        {
+            height: 320px;
+            width: 300px;
+            margin-left: 25px;
+            margin-top: 50px;
+            border-radius: 15px;
+            background-color: white;
+            padding: 30px;
+            text-align: left;
+            box-shadow: 0px 1px 3px 0px rgb(207, 207, 207);
+            p
+            {
+                width: 90%;
+            }
+
+            ul
+            {
+                margin-top: 15px;
+                li
+                {
+                    list-style: none;
+                    margin-bottom: 12px;
+                    margin-left: -45px;
+
+                    .fas
+                    {
+                        font-size: 22px;
+                        padding: 8px;
+                        border-radius: 50%;
+                        transition: .3s;
+                        &:hover
+                        {
+                            background-color: #5a67d8;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+.contactUsAdd
+{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
