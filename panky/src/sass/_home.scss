@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+$sec-font: 'Noto Sans', sans-serif;
+$border-color : #9c4e3e;
+$pages-color: #555;
+
+.home
+{
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    color: $pages-color;
+    
+    
+    .titlehome
+    {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background:linear-gradient(0deg, rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7) 100%) ,url(../img/titlebackground.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        
+
+        h5
+        {
+            color: #ecbe92;
+            font-family: 'Amatic SC', cursive;
+            letter-spacing: 2px;
+            font-size: 27px;
+            font-weight: 300;
+            text-transform: uppercase;
+            animation: titleanimeh5 2.5s 1;
+
+        }
+
+        .titlepages
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: titleanimeh1 2.5s 1;
+
+
+            span
+            {
+                width: 20px;
+                height: 1px;
+                border: 1px solid #ecbe92;
+                animation: titlespan2 1.5s 1;
+            }
+
+            h1
+            {
+                padding: 10px;
+                font-size: 40px;
+                color: white;
+                font-family: $sec-font;
+            }
+        }
+
+        img
+        {
+            width: 50px;
+            height: 47px;
+            transform: rotate(-10deg);
+            animation: animeimg 2.5s infinite;
+        }
+        
+    }
+
+    .aboutushome
+    {
+        width: 100%;
+        height: auto;
+        margin: 5rem 0;
+
+        .images
+        {
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .image1
+            {
+                width: 450px;
+                height: 300px;
+                background: url(../img/AutumnPattern.jpg);
+
+                img
+                {
+                    height: auto;
+                    width: 400px;
+                    margin: -45px -30px;
+                }
+            }
+        }
+
+
+        .textabout
+        {
+            padding-top: 10%;
+            text-align: center;
+            width: 90%;
+
+            h5
+            {
+                color: #9c4e3e;
+                font-family: 'Amatic SC', cursive;
+                letter-spacing: 2px;
+                font-size: 27px;
+                font-weight: 300;
+                text-transform: uppercase;
+
+            }
+    
+            .titlepages
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                span
+                {
+                    width: 20px;
+                    height: 1px;
+                    border: 1px solid #9c4e3e;
+                }
+            
+                h1
+                {
+                    padding: 10px;
+                    font-size: 40px;
+                    color: #555;
+                    font-family: $sec-font;
+                }
+            }
+        
+            p
+            {
+                text-align: center;
+                padding: 15px 0;
+            }
+
+            button
+            {
+                padding: 8px 35px;
+                border: 1px solid #555;
+                color: #555;
+                background: transparent;
+                font-size: 18px;
+                transition: .4s ease-in;
+
+                &:hover
+                {
+                    color: white;
+                    background: #ecbe92;
+                    border: none;
+                }
+
+                .fas
+                {
+                    padding: 0 5px;
+                }
+
+            }
+        } 
+    }
+
+    .specialofferhomeanimate
+    {
+        opacity: 1 !important;
+    }
+
+    .specialofferhome
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5%;     
+        padding-left: 10px;
+        opacity: 0;
+        transition: all 1.5s;
+
+        .specialtext
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h5
+            {
+                color: #9c4e3e;
+                font-family: 'Amatic SC', cursive;
+                letter-spacing: 2px;
+                font-size: 27px;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+    
+            .titlepages
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                span
+                {
+                    width: 20px;
+                    height: 1px;
+                    border: 1px solid $border-color;
+                }
+
+                h1
+                {
+                    padding: 10px;
+                    font-size: 40px;
+                    color: $pages-color;
+                    font-family: $sec-font;
+                }
+            }
+        }
+            
+
+        .specialimg
+        {
+            height: auto;
+            width: 100%;
+
+            .alink
+            {
+                text-decoration: none;
+            }
+
+            .specialimg1
+            {
+                height: 500px;
+                width: 95%;
+                position: relative;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+
+                img
+                {
+                    position: absolute;
+                    z-index: -1;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    filter: brightness(70%);
+                }
+
+                .speciealimgtext
+                {
+                    width: 90%;
+                    height: 90%;
+                    color: white;
+                    border: 1px solid rgba(255, 255, 255, 0);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    transition: .7s;
+
+
+                    h5
+                    {
+                        font-family: 'Amatic SC', cursive;
+                        font-size: 32px;
+                        text-transform: uppercase;
+                    }
+
+                    h6
+                    {
+                        text-transform: uppercase;
+                        padding: 3px 0;
+                        border-bottom: 3px dotted #ecbe92;
+                    }
+
+                    p
+                    {
+                        text-align: center;
+                        display: none;
+                        animation: panim1 .7s 1;
+                    }
+
+                    &:hover
+                    {
+                        border: 1px solid white;
+
+                        p
+                        {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .receipthome
+    {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 50px 10px;
+
+
+        .titlepages
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 10px;
+
+            span
+            {
+                width: 20px;
+                height: 1px;
+                border: 1px solid #9c4e3e;
+            }
+
+            h1
+            {
+                padding: 10px;
+                font-size: 40px;
+                color: #555;
+                font-family: $sec-font;
+            }
+        }
+
+        h5
+        {
+            color: #9c4e3e;
+            font-family: 'Amatic SC', cursive;
+            letter-spacing: 2px;
+            font-size: 27px;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        .cartsanimate
+        {
+            -webkit-animation: rotate-scale-down-ver 1.2s linear both;
+	        animation: rotate-scale-down-ver 1.2s linear both;
+        }
+
+        .carts
+        {
+            width: 100%;
+            height: 350px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            border-radius: 10px;
+            overflow: hidden;
+
+            .cartitle
+            {
+                position: absolute;
+                color: white;
+                z-index: 1;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            }
+
+            img
+            {
+                width: 100%;
+                height: 350px;
+                filter: brightness(85%);
+                transition: .5s  ease-in-out;
+
+
+                &:hover
+                {
+                    transform: scale(1.1,1.1);
+                    filter: brightness(96%);
+                }
+            }
+        }
+        
+    }
+
+}
+
+@media only screen and (max-width: 990px){
+.aboutushome
+{
+    .images
+    {
+        display: none !important;
+    }
+
+    .textabout
+    {
+        padding: 30px 0 !important;
+    }
+}
+
+.specialofferhome
+{
+    padding-left: 5% !important;
+    .specialimg
+    {
+        .specialimg1
+        {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.receipthome
+{
+
+    .carts
+    {
+        width: 80% !important;
+        height: 320px !important;
+        margin: 0 0 1.5rem 3rem;
+
+    }
+}
+
+}
+
+@media only screen and (max-width: 850px){
+    .receipthome
+    {
+        .carts
+        {
+            width: 90% !important;
+            height: 320px !important;
+            margin: 0 0 1.5rem 1rem;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .receipthome
+    {
+
+        .carts
+        {
+            width: 75% !important;
+            height: 320px !important;
+            margin: 0 0 1.5rem 5.5rem;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .home
+    {
+        .titlehome
+        {
+            height: 350px;
+            background-size: contain;
+
+            h1
+            {
+                font-size: 45px;
+            }
+
+            h5
+            {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .receipthome
+    {
+        padding-left: 5% !important;
+
+        .carts
+        {
+            width: 90% !important;
+            height: 320px !important;
+            margin: 0 0 1.5rem 1.5rem;
+
+        }
+    }
+
+    .specialofferhome
+    {
+        padding-left: 10% !important;
+    }
+}

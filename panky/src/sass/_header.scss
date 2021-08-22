@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+header
+{
+    position: fixed;
+    z-index: 10;
+    margin-left: -8px;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e8e4d9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: 1s;
+
+    img
+    {
+        height: 120px;
+        width: 130px;
+    }
+
+    .nav-link
+    {
+        ul
+        {
+            margin: 80px 0 80px -40px;
+            text-align: center;
+            font-size: 20px;
+            color: #555;
+
+            li
+            {
+                width: 270px;
+                font-family: 'Dancing Script', cursive;
+                font-size: 24px;
+                text-decoration: none;
+                list-style: none;
+                margin: 20px 0;
+            }
+
+            .navlink
+            {
+                color: #555;
+                text-decoration: none;
+                border-radius: 45%;
+                padding: 4px 7px;
+                border-bottom: 0px solid #30336b;
+                transition: all .1s ease-in-out;
+
+                &:hover
+                {
+                    color: #dc4425;
+                    border-bottom: 2px solid #30336b;
+                }
+
+                .fas
+                {
+                    padding-left: 80%;
+                    font-size: 16px;
+                    display: none;
+                }
+
+                
+            }
+
+            .active
+            {
+                color: #dc4425;
+            }
+
+            
+        }
+
+        
+    }
+
+
+    .burgerdiv
+    {
+        position: absolute;
+        top: 10px;
+        transition: all .2s ease-in-out;
+
+        i
+        {
+            position: fixed;
+            font-size: 25px;
+            top: 10px;
+            left: 215px;
+        }
+
+        &:hover
+        {
+            color: #474b96;
+        }
+
+        
+    }
+
+    .arrowdiv
+    {
+        position: absolute;
+        top: 10px;
+        display: none;
+        transition: all .2s ease-in-out;
+        
+        i
+        {
+            position: fixed;
+            font-size: 25px;
+            top: 10px;
+            left: 215px;
+        }
+
+        &:hover
+        {
+            color: #dc4425;
+        }
+    }
+
+
+}
+
+footer
+{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    background: url(../img/footerbg.png);
+
+
+    .socialicons
+    {
+        display: flex;
+        transition: .6s ease-in-out;
+
+        .icon
+        {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 12px;
+            padding-top: 2px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #e8e4d9;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: .4s ease-in-out;
+
+            &:hover
+            {
+                box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+                .fab
+                {
+                    -webkit-animation: rotate-scale-down-diag-2 0.7s linear both;
+                    animation: rotate-scale-down-diag-2 0.7s linear both;
+                }
+            }
+        }
+
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 1350px) {
+    header
+    {
+        transform: translateX(-200px) !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    footer
+    {
+        text-align: center;
+        padding-left: 20%;
+        overflow: hidden;
+
+        .socialicons
+        {
+            margin-left: 20%;
+            .icon
+            {
+                width: 50px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    footer
+    {
+        .socialicons
+        {
+            width: 250px;
+            .icon
+            {
+                width: 30px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@import 'header';
+@import 'contactus';
+@import 'home';
+@import 'aboutus';
+@import 'paginations';
+@import 'receipt';
+@import 'keyframes';
+
+$main-color-scroll: #dc4425;
+$sec-color-scroll: #30336b;
+
+body
+{
+    overflow-x: hidden !important;
+}
+
+.App
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.pages
+{
+    padding-left: 16%;
+    transition: 1s;
+    background: #e8e4d9;
+}
+
+@media only screen and (max-width: 1350px) {
+    .pages
+    {
+        padding-left: 3% !important; 
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: $sec-color-scroll;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $main-color-scroll;
+    border-radius: 50px;
+}
